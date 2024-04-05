@@ -7,7 +7,7 @@
         "telegram",
         "userbot",
         "python",
-        "ultroid"
+        "Noah"
     ],
     "repository": "https://github.com/TeamUltroid/Ultroid",
     "website": "https://ultroid.tech",
@@ -48,7 +48,7 @@
         }
     },
     "formation": {
-        "ultroid": {
+        "Noah": {
             "quantity": 1,
             "size": "eco"
         }
