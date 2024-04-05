@@ -19,6 +19,3 @@ WORKDIR "/root/harshraj037"
 # start the bot.
 CMD ["bash", "startup"]
 
-
-
-https://github.com/.git
