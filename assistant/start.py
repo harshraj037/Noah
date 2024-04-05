@@ -29,7 +29,6 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Ultroid [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
 """
 
 
@@ -68,7 +67,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ultroid_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@TeamUltroid**"
+        msg += "\n\n• Powered by **@TeamNoah**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
@@ -160,7 +159,7 @@ async def ultroid(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(udB.get_key("BOT_USERS") or [])
-    msg = """Ultroid Assistant - Stats
+    msg = """Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
@@ -237,4 +236,4 @@ async def timezone_(event):
             await conv.send_message(
                 "Wrong TimeZone, Try again",
                 buttons=get_back_button("mainmenu"),
-            )
+        )
